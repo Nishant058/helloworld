@@ -1,4 +1,4 @@
 FROM openjdk:8
 EXPOSE 8096
-ADD target/helloworld.jar /root/
-ENTRYPOINT ["java","-jar","/root/helloworld.jar"]
+ADD target/helloworld.war /root/
+ENTRYPOINT ["java","-war","/root/helloworld.war"]

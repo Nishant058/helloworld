@@ -1,4 +1,4 @@
 FROM openjdk:8
 EXPOSE 8096
-ADD target/assignment1-4.jar assignment1-4.jar
-ENTRYPOINT ["java","-jar","/assignment1-4.jar"]
+ADD target/assignment1-4.jar /root/
+ENTRYPOINT ["java","-jar","/root/assignment1-4.jar"]

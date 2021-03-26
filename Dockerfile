@@ -1,4 +1,2 @@
-FROM openjdk:8
-EXPOSE 8096
-ADD target/helloworld.war helloworld.war
-ENTRYPOINT ["java","-jar","/helloworld.war"]
+FROM tomcat
+ADD target/my-assignment.war /usr/local/tomcat/webapps/.

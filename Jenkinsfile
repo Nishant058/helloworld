@@ -17,13 +17,7 @@ pipeline
                   checkout([$class: 'GitSCM', branches: [[name: '*/master']], doGenerateSubmoduleConfigurations: false, extensions: [], submoduleCfg: [], userRemoteConfigs: [[url: 'https://github.com/Nishant058/helloworld.git']]])
                }
            }
-            stage('Build')
-           {
-               steps
-               {
-                    bat "mvn clean install"
-               }
-           }
+            
            
                    
         }

@@ -44,15 +44,5 @@
   </dependencies>   
   <build>
     <finalName>helloworld</finalName>
-    <pluginManagement>
-    <plugins>
-      <plugin>
-        <groupId>org.codehaus.sonar</groupId>
-        <artifactId>sonar-maven-plugin</artifactId>
-        <version>3.9.0.2155</version>
-      </plugin>
-      
-    </plugins>
-  </pluginManagement>
   </build>
 </project>

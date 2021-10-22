@@ -44,5 +44,23 @@
   </dependencies>   
   <build>
     <finalName>helloworld</finalName>
+    <pluginManagement>
+    <plugins>
+      <plugin>
+        <groupId>org.codehaus.sonar</groupId>
+        <artifactId>sonar-maven-plugin</artifactId>
+        <version>3.9.0.2155</version>
+      </plugin>
+	  <plugin>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-compiler-plugin</artifactId>
+    <version>3.8.0</version>
+    <configuration>
+        <source>11</source>  <!-- same as <java.version> -->
+        <target>11</target>    <!-- same as <java.version> -->
+    </configuration>
+</plugin>
+    </plugins>
+  </pluginManagement>
   </build>
 </project>

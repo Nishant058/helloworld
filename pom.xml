@@ -7,6 +7,30 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>helloworld Maven Webapp</name>
   <url>http://maven.apache.org</url>
+  <repositories>
+	  <repository>
+  <id>nishantraj0158</id>
+  <url>https://pkgs.dev.azure.com/nishantraj0158/_packaging/nishantraj0158/maven/v1</url>
+  <releases>
+    <enabled>true</enabled>
+  </releases>
+  <snapshots>
+    <enabled>true</enabled>
+  </snapshots>
+</repository>
+  </repositories>
+ <distributionManagement>
+	 <repository>
+  <id>nishantraj0158</id>
+  <url>https://pkgs.dev.azure.com/nishantraj0158/_packaging/nishantraj0158/maven/v1</url>
+  <releases>
+    <enabled>true</enabled>
+  </releases>
+  <snapshots>
+    <enabled>true</enabled>
+  </snapshots>
+</repository>
+</distributionManagement>	
   <dependencies>
     <dependency>
       <groupId>junit</groupId>

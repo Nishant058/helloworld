@@ -44,8 +44,8 @@
   </dependencies>   
  <repositories>
 	  <repository>
-  <id>nishantraj0158</id>
-  <url>https://pkgs.dev.azure.com/nishantraj0158/_packaging/nishantraj0158/maven/v1</url>
+  <id>devops</id>
+  <url>https://pkgs.dev.azure.com/nishantraj0158/ibl/_packaging/devops/maven/v1</url>
   <releases>
     <enabled>true</enabled>
   </releases>
@@ -56,8 +56,8 @@
   </repositories>
  <distributionManagement>
 	 <repository>
-  <id>nishantraj0158</id>
-  <url>https://pkgs.dev.azure.com/nishantraj0158/_packaging/nishantraj0158/maven/v1</url>
+  <id>devops</id>
+  <url>https://pkgs.dev.azure.com/nishantraj0158/ibl/_packaging/devops/maven/v1</url>
   <releases>
     <enabled>true</enabled>
   </releases>
